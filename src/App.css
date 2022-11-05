@@ -13,11 +13,9 @@
   margin: 0;
   font-family: 'Play';
 }
-/* html,
-body {
-  box-sizing: border-box;
-  overflow-x: hidden;
-} */
+body{
+  background-color: #3A1163;
+}
 html{
   scroll-behavior: smooth;
 }
@@ -35,9 +33,9 @@ body::-webkit-scrollbar-thumb {
 }
 #root{
   overflow: hidden;
-  background: 
+  /* background: 
     linear-gradient(to bottom, #5A048E, #5D0274 , #32063D )
-  ;
+  ; */
 }
 a{
   text-decoration: none;
