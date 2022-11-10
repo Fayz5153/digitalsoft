@@ -13,8 +13,12 @@
   margin: 0;
   font-family: 'Play';
 }
+*::selection{
+  background: #CEB3DB;
+  color: #32063D;
+}
 body{
-  background-color: #5A048E; 
+  background-color: #5A048E;
 }
 html{
   scroll-behavior: smooth;
